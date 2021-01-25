@@ -1,0 +1,101 @@
+/* CSS Document */
+/*
+
+.bg-black{ background-color: rgba(14,14,14,1.00)}
+
+.carousel-caption{ top:200px}
+
+.bg-orange{background-color:#f0644f; color: aliceblue; font-weight: 600; text-align: center;}
+.m-right{border: 2px solid #f0644f; border-right: 2px solid white;}
+
+.underline{width: 100px; height: 2px; background-color: orangered;}
+
+.card{border: none;}
+.bg-light-gray{background-color: rgba(111,111,111,0.09)}
+
+.media img{ max-width: 120px; height: auto;}
+
+.underline-green{width: 70px; height: 2px; background-color: lawngreen;}
+.underline-blue{width: 70px; height: 2px; background-color: mediumblue;}
+.underline-black{width: 70px; height: 2px; background-color: black;}
+
+.card-body{text-align: center;}
+
+.blog .media img{ max-width: 200px; height: auto;}
+
+footer ul{text-decoration: none; list-style-type: none;}*/
+h1, h2, h3, h4, h5, p, a{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    padding: 0;
+    margin: 0;
+}
+
+#header-nav{
+    background-color: #ffffff;
+}
+#header-nav .navbar-brand{
+    color: black;
+    font-size: 28px;
+    font-weight: bolder;
+    text-decoration: none !important;
+    margin: 10px 0;
+}
+#header-nav .navbar-brand:hover{
+    text-decoration: none !important;
+}
+#header-nav nav li a{
+    font-weight: 600;
+    /*padding: 7px 25px;*/
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #252525;
+    letter-spacing: 1px;
+    padding: 15px 15px;
+    /*font-size: 14px;*/
+    line-height: 1;
+}
+#header-nav li a:hover{
+    color: #47bac1;
+}
+#header-nav li:active{
+    color: #47bac1;
+}
+
+
+/*Header Top */
+#header-top{
+    padding-top: 5px;
+}
+#header-top p{
+    margin-bottom: -8px;
+    font-size: 12px;
+}
+#header-top a{
+    text-decoration: none;
+}
+#header-top p a{
+    margin-top: 10px;
+    padding: 0 7px 0 0;
+    color: #E5DFDF ;
+}
+#header-top p a:hover{
+    color: #969696;
+}
+#header-top .top-head a{
+    color: #d9d9d9;
+    font-size: 14px;
+    padding: 0 3px;
+    line-height: 35px;
+}
+#header-top .top-head a:hover{
+    color: #ffffff;
+}
+small{
+    font-size: 80%;
+}
+
+
+
